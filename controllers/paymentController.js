@@ -1,4 +1,4 @@
-import { instance } from "../server.js";
+import { instance } from "../index.js";
 
 export const checkout = async (req, res) => {
   const options = {
